@@ -69,36 +69,36 @@ const Navbar: React.FC = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-black p-4">
           <ul className="space-y-4">
-          <li>
-            <NavLink to="/" className={({ isActive }) => isActive ? "text-yellow-400 underline" : "hover:text-yellow-300"}>
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/about" className={({ isActive }) => isActive ? "text-yellow-400 underline" : "hover:text-yellow-300"}>
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/benefit" className={({ isActive }) => isActive ? "text-yellow-400 underline" : "hover:text-yellow-300"}>
-              Benefit
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/booking" className={({ isActive }) => isActive ? "text-yellow-400 underline" : "hover:text-yellow-300"}>
-              Booking
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/contactus" className={({ isActive }) => isActive ? "text-yellow-400 underline" : "hover:text-yellow-300"}>
-              Contact Us
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/profile" className={({ isActive }) => isActive ? "text-yellow-400 underline" : "hover:text-yellow-300"}>
-              Profile
-            </NavLink>
-          </li>
+            <li>
+              <NavLink to="/" className={({ isActive }) => isActive ? "text-yellow-400 underline" : "hover:text-yellow-300"}>
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/about" className={({ isActive }) => isActive ? "text-yellow-400 underline" : "hover:text-yellow-300"}>
+                About
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/benefit" className={({ isActive }) => isActive ? "text-yellow-400 underline" : "hover:text-yellow-300"}>
+                Benefit
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/booking" className={({ isActive }) => isActive ? "text-yellow-400 underline" : "hover:text-yellow-300"}>
+                Booking
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/contactus" className={({ isActive }) => isActive ? "text-yellow-400 underline" : "hover:text-yellow-300"}>
+                Contact Us
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/profile" className={({ isActive }) => isActive ? "text-yellow-400 underline" : "hover:text-yellow-300"}>
+                Profile
+              </NavLink>
+            </li>
           </ul>
 
           {/* Mobile Buttons and ModeToggle */}

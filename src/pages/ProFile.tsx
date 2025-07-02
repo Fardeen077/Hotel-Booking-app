@@ -1,8 +1,4 @@
-import React from 'react'
-
-type Props = {}
-
-const ProFile = (props: Props) => {
+const ProFile = () => {
   return (
     <div>Services</div>
   )
